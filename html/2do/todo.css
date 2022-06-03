@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif; background: #ffffff ;
+}
+h2{padding: 0;}
+.head{
+display: flex;
+justify-content: left;
+align-items: center; background-color: #ECEEFB;
+}
+.to{margin: 10px; padding:  5px 20px; background-color: #4E6BF0; color: white; border-radius: 40%;}
+div{background-color: rgba(0, 0, 0, 0);}
+.mid{margin:  0 350px 0 350px;  
+}
+.date{display: flex;
+justify-content: space-evenly;
+align-items: baseline;}
+.cardcontainer{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card.bg-light.mb-3{width: 300px; height: 250px;}
+.card-header{border: none; background-color: white;}
+.card-body{border: none; background-color: white;}
+#thebtn{border-radius: 50%;}
+.card-body:hover{background: #002fff; color: white;}
